@@ -1,6 +1,6 @@
 {
   "name": "revisit-validator",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "revisit.link service API validator",
   "main": "index.js",
   "dependencies": {},
