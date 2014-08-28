@@ -50,7 +50,7 @@ var RevisitValidator = function (options) {
       url: self.url + '/service',
       body: {
         content: {
-          data: self.imgDataURI
+          data: self.content.data
         },
         meta: {
           audio: {}
