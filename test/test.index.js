@@ -32,7 +32,7 @@ var postReq = function () {
       .reply(200, content);
 };
 
-describe('RevisitValidator', function () {
+describe('validate', function () {
   it('should return with an invalid empty URL', function (done) {
     rv.validate(function () {
       should.exist(rv.errors.InvalidURL);
