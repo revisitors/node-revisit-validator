@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "revisit.link service API validator",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "request": "~2.40.0",
+    "data-uri-to-buffer": "~0.0.3"
+  },
   "devDependencies": {
     "mocha": "~1.21.3",
-    "should": "~4.0.4"
+    "should": "~4.0.4",
+    "nock": "~0.43.1"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha --timeout 2500"
   },
   "repository": {
     "type": "git",
