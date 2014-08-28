@@ -1,6 +1,6 @@
 {
   "name": "revisit-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "revisit.link service API validator",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git://github.com/revisitors/node-revisit-validator.git"
   },
-  "keywords": [],
+  "keywords": ["revisit.link", "validator"],
   "author": "Edna Piranha <jen@ednapiranha.com> (http://ednapiranha.com)",
   "license": "BSD"
 }
