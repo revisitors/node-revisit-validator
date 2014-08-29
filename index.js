@@ -48,14 +48,7 @@ var RevisitValidator = function (options) {
       method: 'POST',
       json: true,
       url: self.url + '/service',
-      body: {
-        content: {
-          data: self.content.data
-        },
-        meta: {
-          audio: {}
-        }
-      }
+      body: self.content
     }, function (err, response, body) {
         if (!body || (body && !body.content)) {
           self.errors.InvalidServicePost = 'Your POST request must point to /service';
